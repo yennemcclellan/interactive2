@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CCA Workshop Template</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+    html, body, div, p {margin:0; padding:0;}
+    .box {width: 100px; height: 100px; padding: 1em; position:absolute; background-color:white; border:solid 1px;}
+    .box1 {top:30%; left:5%; z-index:10;}
+    .box2 {top:30%; left:25%; z-index:20;}
+    .box3 {top:30%; left:45%; z-index:30;}
+    .box4 {top:30%; left:65%; z-index:40;}
+    .box5 {top:30%; left:85%; z-index:50;}
+</style>
+</head>
+<body>
+    <div class="draggable resizable box box1">
+        <p>box1</p>
+    </div>
+    <div class="draggable resizable box box2">
+        <p>box2</p>
+    </div>
+    <div class="draggable resizable box box3">
+        <p>box3</p>
+    </div>
+    <div class="draggable resizable box box4">
+        <p>box4</p>
+    </div>
+    <div class="draggable resizable box box5">
+        <p>box5</p>
+    </div>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( ".draggable" ).draggable();
+        } );
+        $( function() {
+            $( ".resizable" ).resizable();
+        } );
+    </script>
+</body>
+</html>
