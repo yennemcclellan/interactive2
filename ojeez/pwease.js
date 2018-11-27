@@ -58,13 +58,18 @@ function setUpPicker(img){
     console.log(color)
   })
 
+  let colorCounter = 0
+
   img.addEventListener('click',function(){
      // you'd apply the colors here, i'll just set the background
 
     // document.body.style.background = color
-    whitecircle.style.backgroundColor = color
-      whitecircle1.style.backgroundColor = color
-        whitecircle2.style.backgroundColor = color
+    if(colorCounter == 0) whitecircle.style.backgroundColor = color
+    if(colorCounter == 1) whitecircle1.style.backgroundColor = color
+    if(colorCounter == 2) whitecircle2.style.backgroundColor = color
+
+    colorCounter ++
+    // colorCounter %= 3
 
   })
 }
