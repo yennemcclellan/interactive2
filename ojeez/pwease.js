@@ -70,7 +70,7 @@ function setUpPicker(img){
 
     colorCounter ++
 
-    if(colorCounter == 2) window.print()
+    if(colorCounter %= 2) window.print()
 
   })
 }
