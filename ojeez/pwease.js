@@ -69,7 +69,8 @@ function setUpPicker(img){
     if(colorCounter == 2) whitecircle2.style.backgroundColor = color
 
     colorCounter ++
-    // colorCounter %= 3
+
+    if(colorCounter = 3) print()
 
   })
 }
