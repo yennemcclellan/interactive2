@@ -130,7 +130,7 @@ body{
       background: white;
       height: 20px;
       width: 20px;
-      border-radius: 50%;
+      /* border-radius: 50%; */
       top: 20px;
       left: 40px;
       position: absolute;
@@ -138,14 +138,16 @@ body{
     }
 
     .next{
-      background: white;
-      height: 20px;
-      width: 20px;
-      border-radius: 50%;
-      top: 20px;
-      left: 70px;
+      width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid white;
+    border-bottom: 50px solid transparent;
       position: absolute;
        opacity: 0.2;
+       transform: scale(.2);
+       top: -20px;
+       left: 40px;
     }
 
 
@@ -162,7 +164,7 @@ body{
             }
 
             #medium{
-              top: 288px;
+              top: 289px;
               position: absolute;
               left: 40px;
             }
@@ -318,11 +320,11 @@ body{
             background: white;
             height: 20px;
             width: 20px;
-            border-radius: 50%;
+            /* border-radius: 50%; */
             top: 20px;
             left: 40px;
             position: absolute;
-            opacity: 0.2;
+             opacity: 0.2;
           }
 
 
@@ -339,7 +341,7 @@ body{
           }
 
           #medium{
-            top: 188px;
+            top: 189px;
             position: absolute;
             left: 40px;
           }
@@ -356,14 +358,16 @@ body{
           }
 
           .next{
-            background: white;
-            height: 20px;
-            width: 20px;
-            border-radius: 50%;
-            top: 20px;
-            left: 70px;
+            width: 0;
+          height: 0;
+          border-top: 50px solid transparent;
+          border-left: 100px solid white;
+          border-bottom: 50px solid transparent;
             position: absolute;
              opacity: 0.2;
+             transform: scale(.2);
+             top: -20px;
+             left: 40px;
           }
 
       }
