@@ -4,12 +4,12 @@ body {
 
 
 #ohgosh{
-  width:500px;
-  height: 47px;
-  position: relative;
+  width:47px;
+  height: 500px;
+  position: absolute;
   display: block;
-
   transform: scale(4);
+
 }
 .pickOnMe {
   display: none;
