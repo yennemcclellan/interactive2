@@ -4,10 +4,11 @@ body {
 
 
 #ohgosh{
-  width:47px;
-  height: 500px;
+  width:500px;
+  height: 47px;
   position: absolute;
   display: block;
+  left: 200px;
   transform: scale(4);
 
 }
