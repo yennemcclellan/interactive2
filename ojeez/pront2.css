@@ -1,0 +1,48 @@
+body {
+  background: white !important;
+}
+
+
+#ohgosh{
+  width:500px;
+  height: 47px;
+  position: relative;
+  display: block;
+
+  transform: scale(4);
+}
+.pickOnMe {
+  display: none;
+}
+
+.stripe{
+  display: none;
+}
+
+#medium{
+  display: none;
+}
+
+#size{
+  display: none;
+}
+
+.oof{
+  display: none;
+}
+
+.back{
+  display: none;
+}
+
+.next{
+  display: none;
+}
+
+#year{
+  display: none;
+}
+
+.bodytext{
+  display:none;
+}
